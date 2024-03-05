@@ -125,6 +125,9 @@ const config: Config = {
         ".button": {
           "@apply font-code text-xs font-bold uppercase tracking-wider": {},
         },
+        ".children-center": {
+          "@apply flex justify-center items-center": {},
+        },
       });
       addUtilities({
         ".tap-highlight-color": {
